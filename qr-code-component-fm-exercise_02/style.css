@@ -1,0 +1,78 @@
+
+/* Google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* root */
+
+:root {
+
+    /* colors */
+
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+
+    /* font-weight */
+
+    --weight-01: 400;
+    --weight-02: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: var(--Slate-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    padding: 16px;
+    max-width: 300px;
+    background-color: var(--White);
+    border: none;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.wrapper img {
+    height: 270px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.text {
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+}
+
+.text h2 {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: var(--weight-02);
+    color: var(--Slate-900);
+}
+
+.text p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-weight: var(--weight-01);
+    color: var(--Slate-500);
+}
+
+
+
